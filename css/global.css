@@ -5533,6 +5533,28 @@ footer {
 
 /* MUG Style */
 .custom-size-modal {
-	width: 60%;
-	margin-top: 50px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+input.form-control, textarea.form-control {
+    background: #eee;
+    border-color: #e0e0e0;
+}
+
+label, .btn {
+    font-size: 20px;
+}
+
+h2, h2 a {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+body {
+    font-size: 15px;
 }
