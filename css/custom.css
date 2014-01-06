@@ -157,3 +157,7 @@ h3 {
 body {
     font-size: 15px;
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background: #fff!important;
+}
