@@ -187,7 +187,7 @@ body {
     text-align: center;
 }
 
-a:hover .carousel-caption h1, .carousel-content a:hover .container {
+.carousel-caption a:hover h1, .carousel-content a:hover .container {
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -224,4 +224,44 @@ a:hover .carousel-caption h1, .carousel-content a:hover .container {
 .carousel-control {
     background-color: rgba(0, 0, 0, 0) !important;
     z-index: 99;
+}
+
+#events h3 {
+    margin: 0;
+    text-align: center;
+}
+
+#events span {
+    color: #000;
+    text-align: center;
+    display: block;
+}
+
+#events a {
+    display: block;
+    text-align: center;
+}
+
+#events a:hover, #events a:visited, #events a:link, #events a:active {
+    text-decoration: none;
+}
+
+#events a:hover {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#events .img-home-portfolio {
+    margin: 0;
+}
+
+#events .col-lg-4 a {
+    height: 365px;
+}
+
+#events img {
+    width:100%;
+    max-width: 364px;
+    max-height: 235px;
+    display: inline-block;
 }
