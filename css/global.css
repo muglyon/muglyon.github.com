@@ -5450,7 +5450,7 @@ body {
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 50%;
+  height: 400px;
 }
 
 .item,
@@ -5561,4 +5561,67 @@ body {
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background: #fff!important;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 60px;
+    top: 70px;
+    left: 0;
+    right: 0;
+}
+
+.carousel-content .container {
+    padding: 20px;
+}
+
+.carousel-caption h1 {
+    padding: 10px;
+}
+
+.carousel-caption h1, .carousel-content .container {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+a:hover .carousel-caption h1, .carousel-content a:hover .container {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel a:hover {
+    text-decoration: none;
+}
+
+.carousel-content img {
+    float: left;
+}
+
+.carousel-content h1 {
+    margin: 0;
+}
+
+.carousel-content .container > * {
+    display: table-cell;
+    height: 230px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        display: none;
+    }
+}
+
+.no-opacity .carousel {
+    display: none;
+}
+
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0) !important;
+    z-index: 99;
 }
