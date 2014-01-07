@@ -172,6 +172,7 @@ body {
 
 .carousel-content .container {
     padding: 20px;
+    border-radius: 10px !important;
 }
 
 .carousel-caption h1 {
@@ -191,7 +192,7 @@ a:hover .carousel-caption h1, .carousel-content a:hover .container {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.carousel a:hover {
+.carousel a:hover, .carousel a:visited, .carousel a:link, .carousel a:active {
     text-decoration: none;
 }
 
