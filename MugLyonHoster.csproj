@@ -57,8 +57,102 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap.old.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\global.min.css" />
+    <Content Include="css\modern-business.css" />
+    <Content Include="css\modern-business.old.css" />
+    <Content Include="css\style-metronic.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\themes\blue.css" />
+    <Content Include="css\themes\green.css" />
+    <Content Include="css\themes\orange.css" />
+    <Content Include="css\themes\red.css" />
+    <Content Include="font-awesome\css\font-awesome.css" />
+    <Content Include="font-awesome\css\font-awesome.min.css" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\font.css" />
+    <Content Include="img\event.201210.jpg" />
+    <Content Include="img\event.201211.jpg" />
+    <Content Include="img\event.201212.png" />
+    <Content Include="img\event.201301.png" />
+    <Content Include="img\event.201302.png" />
+    <Content Include="img\event.201303.png" />
+    <Content Include="img\event.201305.png" />
+    <Content Include="img\event.201306.png" />
+    <Content Include="img\event.201309.png" />
+    <Content Include="img\event.201310.png" />
+    <Content Include="img\event.201311.png" />
+    <Content Include="img\event.201312.png" />
+    <Content Include="img\event.201401.png" />
+    <Content Include="img\event.201402.png" />
+    <Content Include="img\event.201403.png" />
+    <Content Include="img\event.201404.png" />
+    <Content Include="img\event.201405.png" />
+    <Content Include="img\event.201406.png" />
+    <Content Include="img\event.201409.png" />
+    <Content Include="img\event.201410.png" />
+    <Content Include="img\event.201411.png" />
+    <Content Include="img\event.template.png" />
+    <Content Include="img\muglyon-logo.png" />
+    <Content Include="img\slider.event.azure.jpg" />
+    <Content Include="img\slider.muglyon.jpg" />
+    <Content Include="img\slider.template.png" />
+    <Content Include="img\social.facebook.png" />
+    <Content Include="img\social.googleplus.png" />
+    <Content Include="img\social.linkedin.png" />
+    <Content Include="img\social.twitter.png" />
     <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\global.js" />
+    <Content Include="js\global.min.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\modern-business.js" />
+    <Content Include="js\modernizr.js" />
     <Content Include="readme.md" />
+    <Content Include="css\global.css.bundle" />
+    <Content Include="fonts\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" />
+    <Content Include="fonts\DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="fonts\k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="fonts\MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="js\global.js.bundle" />
+    <Content Include="js\global.min.js.map" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="font-awesome\less\bordered-pulled.less" />
+    <Content Include="font-awesome\less\core.less" />
+    <Content Include="font-awesome\less\fixed-width.less" />
+    <Content Include="font-awesome\less\font-awesome.less" />
+    <Content Include="font-awesome\less\icons.less" />
+    <Content Include="font-awesome\less\larger.less" />
+    <Content Include="font-awesome\less\list.less" />
+    <Content Include="font-awesome\less\mixins.less" />
+    <Content Include="font-awesome\less\path.less" />
+    <Content Include="font-awesome\less\rotated-flipped.less" />
+    <Content Include="font-awesome\less\spinning.less" />
+    <Content Include="font-awesome\less\stacked.less" />
+    <Content Include="font-awesome\less\variables.less" />
+    <Content Include="font-awesome\scss\font-awesome.scss" />
+    <Content Include="font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="font-awesome\scss\_core.scss" />
+    <Content Include="font-awesome\scss\_fixed-width.scss" />
+    <Content Include="font-awesome\scss\_icons.scss" />
+    <Content Include="font-awesome\scss\_larger.scss" />
+    <Content Include="font-awesome\scss\_list.scss" />
+    <Content Include="font-awesome\scss\_mixins.scss" />
+    <Content Include="font-awesome\scss\_path.scss" />
+    <Content Include="font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="font-awesome\scss\_spinning.scss" />
+    <Content Include="font-awesome\scss\_stacked.scss" />
+    <Content Include="font-awesome\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -72,6 +166,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
