@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Roboto2';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto2-Regular'), url(https://fonts.gstatic.com/s/roboto2/v5/tecf3rWv4MFen3Da7hLYig.woff2) format('woff2'), url(https://fonts.gstatic.com/s/roboto2/v5/AcknzPQRSA4WpEBvgFLe5g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto2';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto2 Bold'), local('Roboto2-Bold'), url(https://fonts.gstatic.com/s/roboto2/v5/MBH_3aOnAmMJk1upzCxmrvk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/roboto2/v5/MBH_3aOnAmMJk1upzCxmrhsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
