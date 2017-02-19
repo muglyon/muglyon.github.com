@@ -95,7 +95,13 @@
                     <h2>Nos évènements</h2>
                     <hr>
                 </div>
-
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="#" data-toggle="modal" data-target="#event201702">
+                        <img class="img-responsive img-home-portfolio" src="img/event.201702.png" alt="CQRS, ES, DDD & Fonctionel" />
+                        <h3>CQRS, ES, DDD et Fonctionel</h3>
+                        <span>Jeudi 23 février 2017</span>
+                    </a>
+                </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <a href="#" data-toggle="modal" data-target="#event201701">
                         <img class="img-responsive img-home-portfolio" src="img/event.201701.png" alt="Out Of the Tar Pit" />
@@ -1841,7 +1847,75 @@
             </div>
         </div>
     </div>
-
+    <div class="modal fade " id="event201702" tabindex="-1" role="dialog" aria-labelledby="event201710label" aria-hidden="true">
+        <div class="modal-dialog custom-size-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="event201710label">CQRS, ES, DDD et Fonctionnel</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="img/event.201702.png">
+                        </div>
+                        <div class="col-md-8">
+                            <p>
+                                By <a target="_blank" href="https://twitter.com/Lilobase" >Arnaud LEMAIRE</a>
+                            </p>
+                            <p>
+                                Avec autant de buzzwords dans le titre, laissez-moi expliciter le menu :
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        Nous commencerons avec une étude des principes du CQRS et la notion de projection pour construire les modèles de données dédiées à la lecture, le tout avec un datastore traditionnel (relationnel).
+                                    </li>
+                                    <li>
+                                        Nous continuerons avec le concept d’état en programmation fonctionnelle, et comment les gérer au sein d’une application tout en respectant le principe d’immutabilité. Et pourquoi ont-ils transformé la gestion d’états pour la construction d’interface utilisateur ?
+                                    </li>
+                                    <li>
+                                        Dans un troisième temps, nous nous intéresserons aux évènements du domaine-métier dans le Domain Driven Design et comment ceux-ci s’intègrent dans la mécanique de construction des projections.
+                                    </li>
+                                    <li>
+                                        Enfin, nous assemblerons toutes ces notions pour faire apparaitre l’« event sourcing » comme modèle de persistance pour nos données.
+                                    </li>
+                                    <li>
+                                        Pour clôture, nous verrons les erreurs les plus courantes rencontrées lors de l’implémentation d’un modèle en event sourcing. Et nous terminerons avec une présentation de l’architecture que nous utilisons en interne chez Arpinum pour nos clients.
+                                    </li>
+                                </ul>
+                            </p>
+                            <p>
+                                Take away:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        Utiliser CQRS (sans event-sourcing) pour simplifier la gestion de la persistance dans son application.
+                                    </li>
+                                    <li>
+                                        Comprendre le modèle d’états derrière Redux (utilisé massivement par la communauté ReactJs).
+                                    </li>
+                                    <li>
+                                        Gérer facilement les évènements-métier au sein d’une architecture DDD.
+                                    </li>
+                                    <li>
+                                        Savoir comment implémenter correctement un système basé sur l’event sourcing.
+                                    </li>
+                                    <li>
+                                        Présentation d’une architecture clef en main pour construire ce type d’application.                                
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://www.meetup.com/fr-FR/MUGLyon/events/237493706/" class="btn btn-primary">Inscription</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.1.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/bootstrap/3.0.3/bootstrap.min.js"></script>
