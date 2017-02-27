@@ -96,6 +96,13 @@
                     <hr>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="#" data-toggle="modal" data-target="#event201703">
+                        <img class="img-responsive img-home-portfolio" src="img/event.201703.png" alt="GitFlow et versionning SemVer" />
+                        <h3>GitFlow et versionning SemVer</h3>
+                        <span>Jeudi 30 mars 2017</span>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <a href="#" data-toggle="modal" data-target="#event201702">
                         <img class="img-responsive img-home-portfolio" src="img/event.201702.png" alt="CQRS, ES, DDD & Fonctionel" />
                         <h3>CQRS, ES, DDD et Fonctionel</h3>
@@ -1775,7 +1782,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade " id="event201611" tabindex="-1" role="dialog" aria-labelledby="event201610label" aria-hidden="true">
+    <div class="modal fade " id="event201611" tabindex="-1" role="dialog" aria-labelledby="event201611label" aria-hidden="true">
         <div class="modal-dialog custom-size-modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1807,12 +1814,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade " id="event201701" tabindex="-1" role="dialog" aria-labelledby="event201710label" aria-hidden="true">
+    <div class="modal fade " id="event201701" tabindex="-1" role="dialog" aria-labelledby="event201701label" aria-hidden="true">
         <div class="modal-dialog custom-size-modal">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="event201710label">Out of The Tar Pit</h4>
+                    <h4 class="modal-title" id="event201701label">Out of The Tar Pit</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -1847,12 +1854,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade " id="event201702" tabindex="-1" role="dialog" aria-labelledby="event201710label" aria-hidden="true">
+    <div class="modal fade " id="event201702" tabindex="-1" role="dialog" aria-labelledby="event201702label" aria-hidden="true">
         <div class="modal-dialog custom-size-modal">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="event201710label">CQRS, ES, DDD et Fonctionnel</h4>
+                    <h4 class="modal-title" id="event201702label">CQRS, ES, DDD et Fonctionnel</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -1916,6 +1923,83 @@
             </div>
         </div>
     </div>
+    <div class="modal fade " id="event201703" tabindex="-1" role="dialog" aria-labelledby="event201703label" aria-hidden="true">
+        <div class="modal-dialog custom-size-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="event201703label">GitFlow et versionning SemVer</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="img/event.201703.png">
+                        </div>
+                        <div class="col-md-8">
+                            <p>
+                                By <a target="_blank" href="https://twitter.com/Eregrith">Stéphane FRACHE</a>
+                            </p>
+                            <p>
+                                Git est parmi les SCM les plus utilisés, cela ne veut pas dire que tout le monde l'utilise correctement...
+							</p>
+							<p>
+								Les phrases suivantes s'appliquent peut-être à vous / à votre équipe : 
+								<ul>
+									<li>Olala je n'arrive pas à comprendre le graphe des commits</li>
+									<li>Il faut mettre en prod, je prend quoi comme commits ? Faites moi un mail avec les trucs que je dois prendre</li>
+									<li>Ah bah non on peut pas ne pas mettre la modif de Jean-mi parce que je m'appuie sur un truc qu'il a fait dans ses commits et la mienne part en prod....</li>
+									<li>Mais si, c'était corrigé dans la version qu'on a mis en prod en semaine 12, ou 13... je sais plus.</li>
+									<li>Je vais pas faire une branche, c'est une toute petite modif !</li>
+								</ul>
+								Votre graphe ressemble à un plan du métro japonais ?<br />
+								<img class="img-responsive" src="img/event.201703.png"><br />
+								<br />
+								Ou peut-être simplement êtes vous juste curieux?<br />
+							</p>
+							<p>
+								Quelle que soit votre situation, j'ai à vous présenter une méthode de travail sous git qui répond à pas mal de problèmatiques que j'ai pu retrouver dans plusieurs entreprises: 
+								<ul>
+									<li>On veut savoir ce qui est en prod, ce qui est validé pour partir en prod, et ce qui est en cours de développement à tout moment</li>
+									<li>On veut faire partir en prod uniquement les évolutions/corrections validées par les responsables</li>
+									<li>On voudrait pouvoir profiter des avancées techniques développées par nos collègues dès que possible quand elles ne sont pas soumises à une quelconque validation côté métier</li>
+									<li>On voudrait partager la connaissance du code, mettre toute l'équipe sur un pied d'égalité face à la qualité du code produit par chacun, et regagner la maitrise de celle-ci</li>
+									<li>On veut mettre en place de l'intégration continue sur un environnement dédié</li>
+									<li>On veut avoir une version valide pour partir en prod sans avoir à piocher quelques commits par-ci par-là et devoir "détricoter" les problèmes d'inter-dépendances des modifications de chacun</li>
+									<li>On veut avoir un historique facile et agréable à lire</li>
+									<li>On voudrait versionner notre application sans que ca devienne l'enfer</li>
+								</ul>
+								<br />
+								Et quelques autres !<br />
+								<br />
+								Lors de cette présentation je vous propose : <br />
+
+								<ul>
+									<li>De (re)découvrir un des workflows populaires pour Git : GitFlow</li>
+									<li>
+										De vous faire part des modifications apportées à ce workflow pour répondre aux problématiques ci-dessus :
+										<ul>
+											<li>Principe de séparation Feature / Tech</li>
+											<li>Branche "integration"</li>
+											<li>Pulls Requests et Code Reviews</li>
+											<li>Mouvements de branches (merges, squash-merges, rebases ...)</li>
+										</ul>
+									</li>
+									<li>De découvrir GitVersion permettant de facilement versionner vos assemblies</li>
+								</ul>
+								<br />
+
+								A bientôt ! 
+							</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://www.meetup.com/fr-FR/MUGLyon/events/238033246/" class="btn btn-primary">Inscription</a>
+                </div>
+            </div>
+        </div>
+    </div>
+	
     <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.1.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/bootstrap/3.0.3/bootstrap.min.js"></script>
