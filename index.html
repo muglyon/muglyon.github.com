@@ -95,14 +95,21 @@
                     <h2>Nos évènements</h2>
                     <hr>
                 </div>
-				<div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="#" data-toggle="modal" data-target="#event201805">
+                        <img class="img-responsive img-home-portfolio" src="img/event.201805.jpg" alt="Les bonnes pratiques CleanCode sont-elles compatibles avec l'IA et l'IoT ?" />
+                        <h3>Les bonnes pratiques CleanCode sont-elles compatibles avec l'IA et l'IoT ?</h3>
+                        <span>Jeudi 31 mai 2018</span>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <a href="#" data-toggle="modal" data-target="#event201803">
                         <img class="img-responsive img-home-portfolio" src="img/event.201803.png" alt="Attention chérie ça va couper" />
                         <h3>Attention chérie ça va couper</h3>
                         <span>Jeudi 22 mars 2018</span>
                     </a>
                 </div>
-				<div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <a href="#" data-toggle="modal" data-target="#event201802">
                         <img class="img-responsive img-home-portfolio" src="img/event.201802.png" alt="Introduction au T(ype)DD avec F#" />
                         <h3>Introduction au T(ype)DD avec F#</h3>
@@ -1460,7 +1467,7 @@
                             </p>
                             <p>
                                 How can we quickly tell what an application is about? How can we quickly tell what it does? How can we distinguish business concepts from architecture clutter? How can we quickly find the code we want to change? How can we instinctively know where to add code for new features? Purely looking at unit tests is either not possible or too painful. Looking at higher-level tests can take a long time and still not give us the answers we need. For years, we have all struggled to design and structure projects that reflect the business domain.
-                            </p>                               
+                            </p>
                             <p>
                                 In this talk Sandro will be sharing how he designed the last applications he worked on, twisting a few concepts from Domain-Driven Design, properly applying MVC, borrowing concepts from CQRS, and structuring packages in non-conventional ways.
                             </p>
@@ -1493,7 +1500,7 @@
                                 Et si la complexité d'un logiciel reflétait la complexité fonctionnelle et non technique ?
                             </p>
                             <p>
-								Le but de cet atelier est de vous montrer une méthode de développement qui se focalise sur les problématiques métiers et non technique. Pas besoin d'un langage de programmation ou d'un Framework spécifique. Nous ferons émerger une application pendant l’atelier. Et nous verrons comment l'event sourcing et CQRS se présentent d’eux même pour supprimer les problématiques techniques que nous rencontrons souvent dans une application en couche, même de petite taille.
+                                Le but de cet atelier est de vous montrer une méthode de développement qui se focalise sur les problématiques métiers et non technique. Pas besoin d'un langage de programmation ou d'un Framework spécifique. Nous ferons émerger une application pendant l’atelier. Et nous verrons comment l'event sourcing et CQRS se présentent d’eux même pour supprimer les problématiques techniques que nous rencontrons souvent dans une application en couche, même de petite taille.
                             </p>
                             <p>La présentation sera sous la forme d’un live-coding.</p>
                         </div>
@@ -1559,7 +1566,8 @@
                                 Le <strong><a title="MUG Lyon" href="https://twitter.com/MUGLyon" target="_blank">MUG Lyon</a></strong> organise une session "<strong>ASP.NET Core 1.0</strong>" avec <a href="https://twitter.com/benjiiim" alt="@Benjamin">Benjamin Talmard</a>.
                             </p>
                             <p>
-                                ASP.NET Core 1.0 (anciennement appelé ASP.NET 5) marque une rupture avec les origines du Framework ASP.NET. En effet, ASP.NET Core a pour vocation d’être plus léger, plus modulaire, multiplate-forme pour répondre aux exigences du développement web moderne.                         </p>
+                                ASP.NET Core 1.0 (anciennement appelé ASP.NET 5) marque une rupture avec les origines du Framework ASP.NET. En effet, ASP.NET Core a pour vocation d’être plus léger, plus modulaire, multiplate-forme pour répondre aux exigences du développement web moderne.
+                            </p>
                             <p>
                                 Durant cette session, Benjamin nous présentera les caractéristiques et changements de cette nouvelle version, les nouveautés liées à l’outillage développeurs et les impacts des aspects open source et cross-plateforme.
                             </p>
@@ -1791,7 +1799,8 @@
                             <p>
                                 Technical debt is what makes you feel like it could be easier to restart the development of a product from scratch in order to add a simple new feature to it. SonarQube is an open source code quality portal enabling all stakeholders to identify, track and ultimately act to reimburse the technical debt. SonarLint on the other hand is a product that brings code analysis to the IDE directly for the developer.
                             <p>
-                                In this session, I'll show how Microsoft and SonarSource, the company behind SonarQube, have been working together to bring the platform to .NET developers. We'll start by a tour of the SonarQube platform and how we use it on a daily basis to manage our own code quality. Then, I'll demo SonarLint for Visual Studio to show issues caught on-the-fly as we type in the IDE. Finally, we'll check the Scanner for MsBuild, used to analyze .NET projects, and how it integrates with Team Foundation Server and Visual Studio Team Services but also with Jenkins or TeamCity.                            </p>
+                                In this session, I'll show how Microsoft and SonarSource, the company behind SonarQube, have been working together to bring the platform to .NET developers. We'll start by a tour of the SonarQube platform and how we use it on a daily basis to manage our own code quality. Then, I'll demo SonarLint for Visual Studio to show issues caught on-the-fly as we type in the IDE. Finally, we'll check the Scanner for MsBuild, used to analyze .NET projects, and how it integrates with Team Foundation Server and Visual Studio Team Services but also with Jenkins or TeamCity.
+                            </p>
                             </p>
                         </div>
                     </div>
@@ -1827,7 +1836,8 @@
                                 QueryFirst est un projet personnel open source, en forme d’extension VS, qui cherche à rendre l’utilisation du SQL « frictionless ». Pour ce faire, il tranche avec les autres approches en introduisant un traitement au moment de la rédaction de la requête. Avec QueryFirst, le SQL reste intègre dans son propre fichier, et, à chaque sauvegarde, l’outil exécute la requête et génère le « wrapper » en C# qui permet son intégration dans l’application (la classe qui l’exécute, son interface, et un POCO).  A l’usage, c’est une révélation : vous avez entièrement la main, le « boilerplate » est éliminé, tous vos accès données sont validés, et la création des tests unitaire est facilité.
                             </p>
                             <p>
-                               Le meetup sera l’occasion de présenter l’outil. Il sera surtout l’occasion d’échanger sur les opinions qu’il met en œuvre, et sur le champ d’application et les limitations d’une telle approche. Comme c’est le lancement en quelque sorte du projet, je dévoilerai, comme il se doit, la « KILLER FEATURE ». Vous ne serez pas déçu !                            <p>
+                                Le meetup sera l’occasion de présenter l’outil. Il sera surtout l’occasion d’échanger sur les opinions qu’il met en œuvre, et sur le champ d’application et les limitations d’une telle approche. Comme c’est le lancement en quelque sorte du projet, je dévoilerai, comme il se doit, la « KILLER FEATURE ». Vous ne serez pas déçu !
+                            <p>
                             </p>
                         </div>
                     </div>
@@ -1860,7 +1870,8 @@
                                 Si tout cela vous semble naturel, c’est normal. L’humain fonctionnait déjà ainsi à la préhistoire autour du feu. Pourtant, après tous les efforts de l’industrialisation, on arrive à définir le Design Sprint, Design Thinking, Lean management et autres méthodes Agiles comme modernes et innovantes.
                             </p>
                             <p>
-                                Portons ainsi une vision globale sur l’état actuel de la conduite de projet, et sur des solutions pour retrouver le plaisir de travailler ensemble de manière efficiente.                            </p>
+                                Portons ainsi une vision globale sur l’état actuel de la conduite de projet, et sur des solutions pour retrouver le plaisir de travailler ensemble de manière efficiente.
+                            </p>
                             </p>
                         </div>
                     </div>
@@ -1884,10 +1895,11 @@
                         </div>
                         <div class="col-md-8">
                             <p>
-                                By <a target="_blank" href="https://twitter.com/malk_zameth" >Romeu Moura</a>
+                                By <a target="_blank" href="https://twitter.com/malk_zameth">Romeu Moura</a>
                             </p>
                             <p>
-                                The accidental complexity in your codebase: Learn how to understand it, identify it, arm yourself against it and, armed, fight it. The Out of the Tarpit paper covers:                             <p>
+                                The accidental complexity in your codebase: Learn how to understand it, identify it, arm yourself against it and, armed, fight it. The Out of the Tarpit paper covers: 
+                            <p>
                             </p>
                             <p>
                                 Accidental vs Essential complexity
@@ -1924,7 +1936,7 @@
                         </div>
                         <div class="col-md-8">
                             <p>
-                                By <a target="_blank" href="https://twitter.com/Lilobase" >Arnaud LEMAIRE</a>
+                                By <a target="_blank" href="https://twitter.com/Lilobase">Arnaud LEMAIRE</a>
                             </p>
                             <p>
                                 Avec autant de buzzwords dans le titre, laissez-moi expliciter le menu :
@@ -1966,7 +1978,7 @@
                                         Savoir comment implémenter correctement un système basé sur l’event sourcing.
                                     </li>
                                     <li>
-                                        Présentation d’une architecture clef en main pour construire ce type d’application.                                
+                                        Présentation d’une architecture clef en main pour construire ce type d’application.
                                     </li>
                                 </ul>
                             </p>
@@ -1997,55 +2009,55 @@
                             </p>
                             <p>
                                 Git est parmi les SCM les plus utilisés, cela ne veut pas dire que tout le monde l'utilise correctement...
-							</p>
-							<p>
-								Les phrases suivantes s'appliquent peut-être à vous / à votre équipe : 
-								<ul>
-									<li>Olala je n'arrive pas à comprendre le graphe des commits</li>
-									<li>Il faut mettre en prod, je prend quoi comme commits ? Faites moi un mail avec les trucs que je dois prendre</li>
-									<li>Ah bah non on peut pas ne pas mettre la modif de Jean-mi parce que je m'appuie sur un truc qu'il a fait dans ses commits et la mienne part en prod....</li>
-									<li>Mais si, c'était corrigé dans la version qu'on a mis en prod en semaine 12, ou 13... je sais plus.</li>
-									<li>Je vais pas faire une branche, c'est une toute petite modif !</li>
-								</ul>
-								Votre graphe ressemble à un plan du métro japonais ?<br />
-								<img class="img-responsive" src="img/event.201703.png"><br />
-								<br />
-								Ou peut-être simplement êtes vous juste curieux?<br />
-							</p>
-							<p>
-								Quelle que soit votre situation, j'ai à vous présenter une méthode de travail sous git qui répond à pas mal de problèmatiques que j'ai pu retrouver dans plusieurs entreprises: 
-								<ul>
-									<li>On veut savoir ce qui est en prod, ce qui est validé pour partir en prod, et ce qui est en cours de développement à tout moment</li>
-									<li>On veut faire partir en prod uniquement les évolutions/corrections validées par les responsables</li>
-									<li>On voudrait pouvoir profiter des avancées techniques développées par nos collègues dès que possible quand elles ne sont pas soumises à une quelconque validation côté métier</li>
-									<li>On voudrait partager la connaissance du code, mettre toute l'équipe sur un pied d'égalité face à la qualité du code produit par chacun, et regagner la maitrise de celle-ci</li>
-									<li>On veut mettre en place de l'intégration continue sur un environnement dédié</li>
-									<li>On veut avoir une version valide pour partir en prod sans avoir à piocher quelques commits par-ci par-là et devoir "détricoter" les problèmes d'inter-dépendances des modifications de chacun</li>
-									<li>On veut avoir un historique facile et agréable à lire</li>
-									<li>On voudrait versionner notre application sans que ca devienne l'enfer</li>
-								</ul>
-								<br />
-								Et quelques autres !<br />
-								<br />
-								Lors de cette présentation je vous propose : <br />
+                            </p>
+                            <p>
+                                Les phrases suivantes s'appliquent peut-être à vous / à votre équipe :
+                                <ul>
+                                    <li>Olala je n'arrive pas à comprendre le graphe des commits</li>
+                                    <li>Il faut mettre en prod, je prend quoi comme commits ? Faites moi un mail avec les trucs que je dois prendre</li>
+                                    <li>Ah bah non on peut pas ne pas mettre la modif de Jean-mi parce que je m'appuie sur un truc qu'il a fait dans ses commits et la mienne part en prod....</li>
+                                    <li>Mais si, c'était corrigé dans la version qu'on a mis en prod en semaine 12, ou 13... je sais plus.</li>
+                                    <li>Je vais pas faire une branche, c'est une toute petite modif !</li>
+                                </ul>
+                                Votre graphe ressemble à un plan du métro japonais ?<br />
+                                <img class="img-responsive" src="img/event.201703.png"><br />
+                                <br />
+                                Ou peut-être simplement êtes vous juste curieux?<br />
+                            </p>
+                            <p>
+                                Quelle que soit votre situation, j'ai à vous présenter une méthode de travail sous git qui répond à pas mal de problèmatiques que j'ai pu retrouver dans plusieurs entreprises:
+                                <ul>
+                                    <li>On veut savoir ce qui est en prod, ce qui est validé pour partir en prod, et ce qui est en cours de développement à tout moment</li>
+                                    <li>On veut faire partir en prod uniquement les évolutions/corrections validées par les responsables</li>
+                                    <li>On voudrait pouvoir profiter des avancées techniques développées par nos collègues dès que possible quand elles ne sont pas soumises à une quelconque validation côté métier</li>
+                                    <li>On voudrait partager la connaissance du code, mettre toute l'équipe sur un pied d'égalité face à la qualité du code produit par chacun, et regagner la maitrise de celle-ci</li>
+                                    <li>On veut mettre en place de l'intégration continue sur un environnement dédié</li>
+                                    <li>On veut avoir une version valide pour partir en prod sans avoir à piocher quelques commits par-ci par-là et devoir "détricoter" les problèmes d'inter-dépendances des modifications de chacun</li>
+                                    <li>On veut avoir un historique facile et agréable à lire</li>
+                                    <li>On voudrait versionner notre application sans que ca devienne l'enfer</li>
+                                </ul>
+                                <br />
+                                Et quelques autres !<br />
+                                <br />
+                                Lors de cette présentation je vous propose : <br />
 
-								<ul>
-									<li>De (re)découvrir un des workflows populaires pour Git : GitFlow</li>
-									<li>
-										De vous faire part des modifications apportées à ce workflow pour répondre aux problématiques ci-dessus :
-										<ul>
-											<li>Principe de séparation Feature / Tech</li>
-											<li>Branche "integration"</li>
-											<li>Pulls Requests et Code Reviews</li>
-											<li>Mouvements de branches (merges, squash-merges, rebases ...)</li>
-										</ul>
-									</li>
-									<li>De découvrir GitVersion permettant de facilement versionner vos assemblies</li>
-								</ul>
-								<br />
+                                <ul>
+                                    <li>De (re)découvrir un des workflows populaires pour Git : GitFlow</li>
+                                    <li>
+                                        De vous faire part des modifications apportées à ce workflow pour répondre aux problématiques ci-dessus :
+                                        <ul>
+                                            <li>Principe de séparation Feature / Tech</li>
+                                            <li>Branche "integration"</li>
+                                            <li>Pulls Requests et Code Reviews</li>
+                                            <li>Mouvements de branches (merges, squash-merges, rebases ...)</li>
+                                        </ul>
+                                    </li>
+                                    <li>De découvrir GitVersion permettant de facilement versionner vos assemblies</li>
+                                </ul>
+                                <br />
 
-								A bientôt ! 
-							</p>
+                                A bientôt !
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -2055,7 +2067,7 @@
             </div>
         </div>
     </div>
-	
+
 
     <div class="modal fade " id="event201705" tabindex="-1" role="dialog" aria-labelledby="event201705label" aria-hidden="true">
         <div class="modal-dialog custom-size-modal">
@@ -2074,7 +2086,7 @@
                                 By Sylvain COUDERT
                             </p>
                             <p>
-                                Que faire quand on vous colle une application, passée, datée, délavée, limite rincée? 
+                                Que faire quand on vous colle une application, passée, datée, délavée, limite rincée?
                             </p>
                             <p>
                                 Quand on vous demande de la corriger, de la moderniser, de la fiabiliser, mais surtout sans tout réécrire?
@@ -2090,7 +2102,7 @@
                             </p>
                             <p>
                                 Le dev qui va devoir jongler entre ce qu'il voudrait faire, ce qu'il saura faire, ce qu'il aura le temps de faire, ce que le client voudra bien qu'il fasse et naturellement ce qui devra être obligatoirement fait.
-                                </p>
+                            </p>
                             <p>
                                 Je vous raconterai tout ça, de la gestion/migration des bibliothèques ancestrales à la question de l'accès aux données en passant le vertige du "mais va vraiment falloir que je repasse sur tout le code??"
                         </div>
@@ -2147,36 +2159,36 @@
                                 By <a target="_blank" href="https://github.com/jiycefer">Ihor LEONTIEV</a>
                             </p>
                             <p>
-                                Après avoir défrayé l'actualité automobile(*) et les réseaux Blockchain, 
-                                le MUG Lyon se propose d'accueillir Igor Leontiev, l'architecte (en chef !) 
+                                Après avoir défrayé l'actualité automobile(*) et les réseaux Blockchain,
+                                le MUG Lyon se propose d'accueillir Igor Leontiev, l'architecte (en chef !)
                                 chez VISEO du projet "Renault-Nissan, le carnet d'entretien numérique" infalsifiable et connecté ! </br>
 
-                                Certains font des PoC en créant un réseau de Blockchain en 5 min en utilisant des images Docker 
-                                ou des VM… mais après, on est face au néant ! 
+                                Certains font des PoC en créant un réseau de Blockchain en 5 min en utilisant des images Docker
+                                ou des VM… mais après, on est face au néant !
                                 C’est comme si vous étiez capable de créer un réseau Internet en 5 min… mais que faire après ??
                                 • quels protocols d’échanges ?
                                 • quelles applications déployer ? et comment ?
-                                • ça sert à quoi ? quelles sont les contraintes techniques et juridiques ? 
+                                • ça sert à quoi ? quelles sont les contraintes techniques et juridiques ?
                                 Les performances (parfois obligatoirement lentes) ??
                                 ...</br>
 
-                                Aussi sécurisé qu’un système d’échange bancaire, mais également aussi complexe ! 
-                                Venez découvrir sur un exemple concret comment ça marche, les implications au niveau de l'équipe 
+                                Aussi sécurisé qu’un système d’échange bancaire, mais également aussi complexe !
+                                Venez découvrir sur un exemple concret comment ça marche, les implications au niveau de l'équipe
                                 (dev, archi, IHM, sécurité, ...).
                                 </br>
                                 </br>
 
 
 
-                                Il aura fallu plusieurs mois intensifs à Igor pour monter en compétence 
-                                (en mode sous-marin avec Microsoft Corp, via son titre de MVP Azure) … 
+                                Il aura fallu plusieurs mois intensifs à Igor pour monter en compétence
+                                (en mode sous-marin avec Microsoft Corp, via son titre de MVP Azure) …
                                 Aussi, en 1 h le MUG ne pourra pas vous transformer en expert !
                                 </br>
 
-                                Mais on débutera "simple", pour terminer en effleurant du doigt la complexité 
-                                de ce sujet et ce que l'équipe a mis en place pour relever les challenges techniques 
-                                (avec les framework Microsoft !), mais surtout fonctionnel, 
-                                tout en tenant compte des apsects législatif (car on peut presque tout imaginer... 
+                                Mais on débutera "simple", pour terminer en effleurant du doigt la complexité
+                                de ce sujet et ce que l'équipe a mis en place pour relever les challenges techniques
+                                (avec les framework Microsoft !), mais surtout fonctionnel,
+                                tout en tenant compte des apsects législatif (car on peut presque tout imaginer...
                                 mais la Loi n'est pas aussi rapide, et on peut être contraint en France).
 
 
@@ -2214,23 +2226,23 @@
                                 <b>REST in Peace: GraphQL is coming!</b> par <a target="_blank" href="https://twitter.com/cderue">Cédric DERUE</a>
                             </p>
                             <p>
-                                Il se présentera en 3 parties : 
+                                Il se présentera en 3 parties :
                                 <ul>
-                                <li>Nouveaux concepts GraphQL</li> 
-                                <li>Détaille des différentes étapes nécessaires de mise en place</li>  
-                                <li>Un exemple d'implémentation d'un serveur GraphQL avec ASP.NET Core</li> 
+                                    <li>Nouveaux concepts GraphQL</li>
+                                    <li>Détaille des différentes étapes nécessaires de mise en place</li>
+                                    <li>Un exemple d'implémentation d'un serveur GraphQL avec ASP.NET Core</li>
                                 </ul>
 
                                 Pourquoi parler de GraphQL ? <br>
-                                
+
                                 L'explosion des API modernes a sans aucun doute contribué à la forte popularité des architectures REST aujourd'hui.  <br>
-                                
+
                                 Les API REST sont utiles pour distribuer des données consommables depuis n'importe quel client : laptop, smartphone, tablette ou tout autre objet connecté.   <br>
-                                
+
                                 Dans le même temps, c'est aussi la diversité des terminaux mobiles et les contraintes du réseau qui font apparaître désormais les limites des architectures de type REST.  <br>
-                                
+
                                 C'est le constat fait notamment par les équipes de Facebook qui ont conçu une nouvelle génération d'API nommé API GraphQL pour produire des API en production capable de dépasser les limites imposées par REST.  <br>
-                                
+
                                 Malgré la jeunesse de la solution, de plus en plus de géants du Web comme GitHub, Pinterest, ou encore Shopify utilise API GraphQL en production. GraphQL est donc perçue comme une véritable alternative aux architectures REST. <br>
                             </p>
                         </div>
@@ -2267,34 +2279,34 @@
                             <p>
                                 Behaviour Driven Development, Specification by example ou TDD Outside-in sont des pratiques qui m’interpellent depuis un certain nombre d’années, mais qu’il n’est pas toujours évident de mettre en œuvre ‘dans la vraie vie’.
                             </p>
-                                Les promesses de mondes meilleurs à base de langage commun entre métier et développeurs, de spécifications claires, précises et comprises par tous ou de code piloté par des besoins métiers ne sont pas toujours au rendez-vous.
-                            <p>                                
+                            Les promesses de mondes meilleurs à base de langage commun entre métier et développeurs, de spécifications claires, précises et comprises par tous ou de code piloté par des besoins métiers ne sont pas toujours au rendez-vous.
+                            <p>
                                 Nos tentatives se traduisent (trop) souvent par des maux de têtes, des échecs, et beaucoup de frustrations.
                             </p>
-                            <p>                                
+                            <p>
                                 J’ai aujourd’hui l’opportunité de travailler sur un projet ambitieux de refonte d’un S.I. en repartant de zéro. Et même s’il est probablement un peu tôt pour dresser un bilan objectif du projet, je crois que la démarche mise en œuvre mérite d’être partagée.
-                            </p>                                
-                            <p>                                
+                            </p>
+                            <p>
                                 En effet, nos spécifications sont illustrées par des exemples élaborés de façon collaborative, puis traduites immédiatement en scenario BDD qui guident les développeurs dans leur code, leurs servent de cas d’acceptation ainsi que de test de non régression.
-                            </p>                                
-                            <p>                                
+                            </p>
+                            <p>
                                 Ces exemples alimentent une ‘documentation vivante’ précise et juste à tout instant, et consultable par n’importe quelle partie prenante.
-                            </p>                                
-                            <p>                                
+                            </p>
+                            <p>
                                 Cette présentation sera donc un retour d’expérience sur la mise en place de la ‘Spécification par l’exemple’ sur un véritable projet.
-                            </p>                                
-                            <p>                                
+                            </p>
+                            <p>
                                 Je tacherais de mettre en évidence les points auxquels je fais attention et que je pense être les principaux facteurs d’échec à ses pratiques.
-                            </p>                                
-                            <p>                                
-                                    Take away :
-                                    <ul>                                
-                                        <li>Mener vos ateliers avec votre PO/QA/DEV pour sortir avec des scenarios prêts à coder.</li>                                        
-                                        <li>Ecrire des scenarios significatifs et simples à comprendre.</li>
-                                        <li>Automatiser la validation des spécifications sans problèmes pour les maintenir dans le temps.</li>
-                                        <li>Faire évoluer une documentation fonctionnelle et technique juste et à jour, les mains dans les poches.</li>        
+                            </p>
+                            <p>
+                                Take away :
+                                <ul>
+                                    <li>Mener vos ateliers avec votre PO/QA/DEV pour sortir avec des scenarios prêts à coder.</li>
+                                    <li>Ecrire des scenarios significatifs et simples à comprendre.</li>
+                                    <li>Automatiser la validation des spécifications sans problèmes pour les maintenir dans le temps.</li>
+                                    <li>Faire évoluer une documentation fonctionnelle et technique juste et à jour, les mains dans les poches.</li>
                                 </ul>
-                            </p>                                
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -2323,12 +2335,12 @@
                             </p>
                             <p>
                                 L'intégration d'Azure IoT Edge permet aux organisations et aux développeurs d'appliquer
-                                 Intelligence Artificielle et Machine Learning à des données des appareils IoT. Tous les modèles
-                                 créés à l'aide d'Azure Machine Learning peuvent désormais être déployés sur des passerelles et des périphériques
-                                 IoT avec l'environnement d'exécution Azure IoT Edge. La simplicité de ce service innovant de Microsoft contribue 
-                                 à gérer et à fournir l'intelligence du cloud localement. Apprenez comment vous pouvez rapidement créer,
-                                 déployer et exécuter une logique personnalisée, des services Azure et des algorithmes Machine Learning directement sur
-                                 des appareils IoT.
+                                Intelligence Artificielle et Machine Learning à des données des appareils IoT. Tous les modèles
+                                créés à l'aide d'Azure Machine Learning peuvent désormais être déployés sur des passerelles et des périphériques
+                                IoT avec l'environnement d'exécution Azure IoT Edge. La simplicité de ce service innovant de Microsoft contribue
+                                à gérer et à fournir l'intelligence du cloud localement. Apprenez comment vous pouvez rapidement créer,
+                                déployer et exécuter une logique personnalisée, des services Azure et des algorithmes Machine Learning directement sur
+                                des appareils IoT.
                             </p>
                         </div>
                     </div>
@@ -2339,9 +2351,9 @@
             </div>
         </div>
     </div>
-	
-	
-	<div class="modal fade " id="event201802" tabindex="-1" role="dialog" aria-labelledby="event201802label" aria-hidden="true">
+
+
+    <div class="modal fade " id="event201802" tabindex="-1" role="dialog" aria-labelledby="event201802label" aria-hidden="true">
         <div class="modal-dialog custom-size-modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -2359,12 +2371,12 @@
                             </p>
                             <p>
                                 La programmation fonctionnelle est de plus en plus mise en avant, mais pourquoi? Qu’y a-t-il de différent avec la POO?
-							</p>
+                            </p>
                             <p>
-								Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle. Les différences de notation forment le principal obstacle, une fois passé, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).
-							</p>
+                                Nous vous proposons de partir d’un kata bien connu pour illustrer les différences (implémentations en C# existantes) et dédiaboliser la soi-disant complexité de la programmation fonctionnelle. Les différences de notation forment le principal obstacle, une fois passé, la programmation fonctionnelle n’est pas plus compliquée. Nous aborderons le langage F# pas à pas en illustrant notamment le système de type (dit de “types algébriques”) pour avoir un design piloté par les types (TypeDD).
+                            </p>
                             <p>
-								En bonus, nous vous montrerons comment créer une web app réactive du kata en F# avec Fable.io (transpiler F# vers JavaScript) et Elmish (oui la référence au langage Elm est fait exprès).
+                                En bonus, nous vous montrerons comment créer une web app réactive du kata en F# avec Fable.io (transpiler F# vers JavaScript) et Elmish (oui la référence au langage Elm est fait exprès).
                             </p>
                         </div>
                     </div>
@@ -2375,9 +2387,49 @@
             </div>
         </div>
     </div>
-	
-	
-		<div class="modal fade " id="event201803" tabindex="-1" role="dialog" aria-labelledby="event201803label" aria-hidden="true">
+
+    <div class="modal fade " id="event201805" tabindex="-1" role="dialog" aria-labelledby="event201805label" aria-hidden="true">
+        <div class="modal-dialog custom-size-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="event201805label">Les bonnes pratiques CleanCode sont-elles compatibles avec l'IA et l'IoT ?</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="img/event.201805.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            Ce mois-ci le MUG Lyon accueille une jeune développeuse en Intelligence Artificielle pour une présentation d'un projet IA et IoT, appliqué au domaine médical.
+                            </BR></BR>
+                            VISEO voulait challenger les méthodologies de CleanCode, Behavior Diven Development, CI/CD avec du Python, DevOps... sur des sujets IA.
+                            Sacha a relevé les différents défis et vous relate ce projet innovant, reposant sur un algorithme d'IA distribuée (DCOP), une branche assez méconnue de l'IA.
+                            </BR></BR>
+                            ==========
+                            </BR></BR>
+                            Nous vous présenterons
+                            - dans un premier temps le contexte du projet,
+                            - puis nous verrons comment les bonnes pratiques de la Craftswoman ;-) ont été intégrées
+                            - tout en rappelant brièvement quelles sont ces bonnes pratiques
+                            </BR></BR>
+                            Ont été utilisé notamment sur ce projet :
+                            VSTS, SonarQube, SonarLint, SOLID, MagicMock (unittest de python), BDD Automation Behave...
+                            </BR></BR>
+                            Nous constaterons que non seulement cela fonctionne ! et comprendrons les avantages à déployer de tels outils/méthodologies sur des projets IA.
+                            </BR></BR>
+                            Rassurez-vous, pour ne pas mélanger tous les sujets, nous ne détaillerons pas les mathématiques qui peuvent s'avérer complexe. Cela dit, nous aurons tout le temps de détailler cela durant le Q&A.
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a target="_blank" href="https://www.meetup.com/fr-FR/MUGLyon/events/250854003/" class="btn btn-primary">Inscription</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="event201803" tabindex="-1" role="dialog" aria-labelledby="event201803label" aria-hidden="true">
         <div class="modal-dialog custom-size-modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -2395,12 +2447,12 @@
                             </p>
                             <p>
                                 Malgré les quelques retours de bâton sur les microservices ces derniers mois, elle reste une architecture qui adresse beaucoup plus de problèmes qu'elle n'en pose pour moi. J'ai eu la chance de travailler sur un nouveau projet full microservice et je vais donc vous proposer une retour d'expérience sur ce que j'en ai vu et sur ce que j'ai pu mettre en place pour éviter d'y perdre mon âme.
-							</p>
+                            </p>
                             <p>
-								Après un bref résumé des principes clés pour réussir dans les microservices nous verrons la principale complexité inhérente à ce découpage : la communication entre tous nos services. C'est précisément ce point que nous allons aborder. Après avoir mis en avant les principaux problèmes que l'ont peut rencontrer nous allons voir les différentes solutions à mettre en place pour augmenter la résilience de nos applications, clé du succès à mon avis dans les microservices.
-							</p>
+                                Après un bref résumé des principes clés pour réussir dans les microservices nous verrons la principale complexité inhérente à ce découpage : la communication entre tous nos services. C'est précisément ce point que nous allons aborder. Après avoir mis en avant les principaux problèmes que l'ont peut rencontrer nous allons voir les différentes solutions à mettre en place pour augmenter la résilience de nos applications, clé du succès à mon avis dans les microservices.
+                            </p>
                             <p>
-								La solution finale quant à elle fera la part belle à l'event sourcing où nous verrons que ce principe nous rendra beaucoup de services !
+                                La solution finale quant à elle fera la part belle à l'event sourcing où nous verrons que ce principe nous rendra beaucoup de services !
                             </p>
                         </div>
                     </div>
@@ -2422,7 +2474,7 @@
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-47702403-1', 'muglyon.github.io');
